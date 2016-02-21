@@ -20,8 +20,14 @@ NSString *BASE_URL = @"https://www.facebook.com";
 - (nonnull instancetype)initWithCoder:(nonnull NSCoder *)aDecoder {
     if (self = [super initWithURL:[NSURL URLWithString:BASE_URL]]) {
         // Initialization stuff here
+        self.delegate = self;
     }
     return self;
+}
+
+- (void)safariViewControllerDidFinish:(SFSafariViewController *)controller {
+    // Just reinitialize when the user clicks "Done"
+    (void)[controller initWithURL:[NSURL URLWithString:BASE_URL]];
 }
 
 @end
