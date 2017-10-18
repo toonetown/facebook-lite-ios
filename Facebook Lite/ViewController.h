@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <SafariServices/SafariServices.h>
 
-@interface ViewController : SFSafariViewController <SFSafariViewControllerDelegate>
+@interface ViewController : UIViewController <SFSafariViewControllerDelegate>
 
 - (nonnull instancetype)initWithCoder:(nonnull NSCoder *)aDecoder;
 
