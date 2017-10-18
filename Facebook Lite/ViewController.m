@@ -28,6 +28,7 @@
     controller.preferredBarTintColor = BAR_COLOR;
     controller.delegate = self;
     [self presentViewController:controller animated:animated completion:nil];
+    [super viewDidAppear:animated];
 }
 
 @end
