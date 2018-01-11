@@ -13,11 +13,10 @@
 @end
 
 // The URL to load into the controller
-#define BASE_URL  [NSURL URLWithString:@"https://www.facebook.com"]
-#define BAR_COLOR [UIColor colorWithRed:((27.0)/255.0) \
-                                  green:((62.0)/255.0) \
-                                   blue:((136.0)/255.0) \
-                                  alpha:1.0]
+#define BASE_URL        "https://www.facebook.com"
+#define BAR_COLOR_RED   27
+#define BAR_COLOR_GREEN 62
+#define BAR_COLOR_BLUE  136
 
 @implementation ViewController
 
@@ -27,8 +26,11 @@
 
 - (void)viewDidAppear:(BOOL)animated {
     // View just appeared - display our safari view controller
-    SFSafariViewController *controller = [[SFSafariViewController alloc] initWithURL:BASE_URL];
-    controller.preferredBarTintColor = BAR_COLOR;
+    SFSafariViewController *controller = [[SFSafariViewController alloc] initWithURL:[NSURL URLWithString:@BASE_URL]];
+    controller.preferredBarTintColor = [UIColor colorWithRed:((CGFloat)BAR_COLOR_RED/255.0)
+                                                       green:((CGFloat)BAR_COLOR_GREEN/255.0)
+                                                        blue:((CGFloat)BAR_COLOR_BLUE/255.0)
+                                                       alpha:1.0];
     controller.delegate = self;
     [self presentViewController:controller animated:animated completion:nil];
     [super viewDidAppear:animated];
