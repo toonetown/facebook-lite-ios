@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		883F78571C77F2430061AABD /* Facebook Lite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Facebook Lite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		883F78571C77F2430061AABD /* FacebookLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacebookLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		883F785B1C77F2430061AABD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		883F785D1C77F2430061AABD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		883F785E1C77F2430061AABD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		883F78581C77F2430061AABD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				883F78571C77F2430061AABD /* Facebook Lite.app */,
+				883F78571C77F2430061AABD /* FacebookLite.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -68,7 +68,8 @@
 				883F786B1C77F2430061AABD /* Info.plist */,
 				883F785A1C77F2430061AABD /* Supporting Files */,
 			);
-			path = "Facebook Lite";
+			name = "Facebook Lite";
+			path = FacebookLite;
 			sourceTree = "<group>";
 		};
 		883F785A1C77F2430061AABD /* Supporting Files */ = {
@@ -82,9 +83,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		883F78561C77F2430061AABD /* Facebook Lite */ = {
+		883F78561C77F2430061AABD /* FacebookLite */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 883F786E1C77F2430061AABD /* Build configuration list for PBXNativeTarget "Facebook Lite" */;
+			buildConfigurationList = 883F786E1C77F2430061AABD /* Build configuration list for PBXNativeTarget "FacebookLite" */;
 			buildPhases = (
 				883F78531C77F2430061AABD /* Sources */,
 				883F78541C77F2430061AABD /* Frameworks */,
@@ -94,9 +95,9 @@
 			);
 			dependencies = (
 			);
-			name = "Facebook Lite";
+			name = FacebookLite;
 			productName = "Facebook Lite";
-			productReference = 883F78571C77F2430061AABD /* Facebook Lite.app */;
+			productReference = 883F78571C77F2430061AABD /* FacebookLite.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -114,7 +115,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 883F78521C77F2430061AABD /* Build configuration list for PBXProject "Facebook Lite" */;
+			buildConfigurationList = 883F78521C77F2430061AABD /* Build configuration list for PBXProject "FacebookLite" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -127,7 +128,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				883F78561C77F2430061AABD /* Facebook Lite */,
+				883F78561C77F2430061AABD /* FacebookLite */,
 			);
 		};
 /* End PBXProject section */
@@ -281,7 +282,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KVCJU99B88;
-				INFOPLIST_FILE = "Facebook Lite/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/FacebookLite/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.toonetown.Facebook-Lite";
@@ -294,7 +295,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KVCJU99B88;
-				INFOPLIST_FILE = "Facebook Lite/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/FacebookLite/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.toonetown.Facebook-Lite";
@@ -305,7 +306,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		883F78521C77F2430061AABD /* Build configuration list for PBXProject "Facebook Lite" */ = {
+		883F78521C77F2430061AABD /* Build configuration list for PBXProject "FacebookLite" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				883F786C1C77F2430061AABD /* Debug */,
@@ -314,7 +315,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		883F786E1C77F2430061AABD /* Build configuration list for PBXNativeTarget "Facebook Lite" */ = {
+		883F786E1C77F2430061AABD /* Build configuration list for PBXNativeTarget "FacebookLite" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				883F786F1C77F2430061AABD /* Debug */,
