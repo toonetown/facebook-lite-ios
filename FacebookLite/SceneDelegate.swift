@@ -18,6 +18,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate, SFSafariViewControllerD
     static let barColorRed =   CGFloat(Double(27) / 255.0)
     static let barColorGreen = CGFloat(Double(62) / 255.0)
     static let barColorBlue =  CGFloat(Double(136) / 255.0)
+    static let btnColorRed =   CGFloat(Double(255) / 255.0)
+    static let btnColorGreen = CGFloat(Double(255) / 255.0)
+    static let btnColorBlue =  CGFloat(Double(255) / 255.0)
 
     // Creates and initializes a new controller that we can attach to the window.
     func initController() -> SFSafariViewController {
@@ -26,6 +29,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate, SFSafariViewControllerD
                                                  green: SceneDelegate.barColorGreen,
                                                   blue: SceneDelegate.barColorBlue,
                                                  alpha: 1.0)
+        controller.preferredControlTintColor = UIColor(red: SceneDelegate.btnColorRed,
+                                                     green: SceneDelegate.btnColorGreen,
+                                                      blue: SceneDelegate.btnColorBlue,
+                                                     alpha: 1.0)
         controller.delegate = self
         return controller
     }
